@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog</title>
+  <link rel="stylesheet" href="stylesheet/style.css"/>
+  <script src="JS/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="home">
+    <div class="container header-row">
+      <div class="brand">
+        <a href="#home">Blog</a>
+      </div>
+      <nav class="main-nav" aria-label="Menu">
+        <a href="#posts">Wpisy</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+
+    <section id="posts" aria-labelledby="posts-title" class="posts">
+      <h1 id="posts-title">Najnowsze wpisy</h1>
+
+      <article class="post">
+        <a class="post__link" href="#!">
+          <figure class="post__media">
+            <img src="Image/photo1.jpg" alt="Złota godzina — portret w naturalnym świetle" loading="lazy">
+          </figure>
+          <header class="post__header">
+            <h2 class="post__title">Jak przygotować się do egzaminu? 7 prostych kroków</h2>
+            <p class="post__meta">
+              <time datetime="2024-10-01T13:21">1 października 2024, 13:21</time> • 4 min czytania
+            </p>
+          </header>
+          <p class="post__excerpt">
+            Plan nauki, przerwy, aktywne przypominanie i krótkie testy — co działa naprawdę, gdy czasu mało.
+          </p>
+          <footer class="post__footer">
+            <span class="post__tag">#nauka</span>
+            <span class="post__comments">13 komentarzy</span>
+          </footer>
+        </a>
+      </article>
+
+      <article class="post">
+        <a class="post__link" href="#!">
+          <figure class="post__media">
+            <img src="Image/photo2.jpg" alt="Powrót z zajęć — jak nie tracić rytmu?" loading="lazy">
+          </figure>
+          <header class="post__header">
+            <h2 class="post__title">Powrót z zajęć — jak nie wypaść z rytmu</h2>
+            <p class="post__meta">
+              <time datetime="2024-09-20T10:00">20 września 2024, 10:00</time> • 3 min czytania
+            </p>
+          </header>
+          <p class="post__excerpt">
+            Mikro‑nawyki po zajęciach: 15‑min podsumowanie, porządek w notatkach i odpoczynek bez wyrzutów sumienia.
+          </p>
+          <footer class="post__footer">
+            <span class="post__tag">#organizacja</span>
+            <span class="post__comments">5 komentarzy</span>
+          </footer>
+        </a>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <section class="widget">
+        <h3>O autorce</h3>
+        <p>Cześć! Jestem Marta — studentka informatyki. Piszę o nauce, produktywności i życiu na uczelni.</p>
+      </section>
+
+      <section class="widget">
+        <h3>Archiwum</h3>
+        <nav>
+          <ul class="archive">
+            <li><a href="#!">październik 2024</a></li>
+            <li><a href="#!">wrzesień 2024</a></li>
+            <li><a href="#!">sierpień 2024</a></li>
+            <li><a href="#!">lipiec 2024</a></li>
+            <li><a href="#!">czerwiec 2024</a></li>
+            <li><a href="#!">maj 2024</a></li>
+          </ul>
+        </nav>
+      </section>
+    </aside>
+  </main>
+  
+  <a class="go-top" aria-label="Do góry">↑</a>
+
+  <footer id="contact">
+    <section aria-labelledby="contact-title">
+      <h2 id="contact-title">Kontakt</h2>
+      <address>
+        <p>E-mail: <a href="mailto:mail@email.com">mail@email.com</a></p>
+        <p>Telefon: <a href="tel:+48123456789">+48 123 456 789</a></p>
+        <p>Instagram: <a href="#" rel="noopener">instagram.com/blogger</a></p>
+      </address>
+    </section>
+  </footer>
+</body>
+</html>

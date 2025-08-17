@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Event</title>
+  <link rel="stylesheet" href="stylesheet/style.css"/>
+  <script src="JS/script.js" defer></script>
+</head>
+<body>
+  <header id="home" class="header">
+    <nav class="nav" aria-label="Menu">
+      <a href="#about">O wydarzeniu</a>
+      <a href="#schedule">Harmonogram</a>
+      <a href="#location">Miejsce</a>
+    </nav>
+
+    <div class="header-box">
+      <h1>Tech Meetup Warszawa</h1>
+      <p class="lead">
+        Wstęp <strong>bezpłatny</strong> po rejestracji.
+      </p>
+      <a class="btn" href="#register">Zarejestruj się</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>O wydarzeniu</h2>
+      <p>Spotkanie dla pasjonatów technologii: krótkie talki o Javie, webie i DevOps, a po nich networking. Idealne dla studentów i juniorów.</p>
+      <ul class="facts">
+        <li>Data: <strong>23 listopada 2025 (niedziela)</strong></li>
+        <li>Godzina: <strong>13:00–18:00</strong></li>
+        <li>Wstęp: <strong>darmowy po rejestracji</strong></li>
+      </ul>
+    </section>
+
+    <section id="schedule" class="section">
+      <h2>Harmonogram</h2>
+      <ul class="timeline">
+        <li><time>13:00</time> Wejście, odbiór identyfikatorów</li>
+        <li><time>13:30</time> Spring Boot od zera</li>
+        <li><time>14:15</time> Przerwa • kawa i networking</li>
+        <li><time>14:30</time> SQL bez bólu</li>
+        <li><time>15:15</time> CI/CD — demo na żywo</li>
+        <li><time>16:00</time> Panel Q&amp;A</li>
+        <li><time>16:45</time> Przerwa</li>
+        <li><time>18:00</time> Zakończenie</li>
+      </ul>
+    </section>
+
+    <section id="register" class="section">
+      <h2>Rejestracja (wstęp darmowy)</h2>
+
+      <div class="register-card">
+        <div class="register-head">
+          <strong>0 zł • liczba miejsc ograniczona</strong>
+          <span>Rezerwacja zajmuje ~1 minutę</span>
+        </div>
+
+        <form class="register-form" action="#" method="post">
+          <div class="form-grid">
+            <label>Imię i nazwisko
+              <input class="input" type="text" name="name" required>
+            </label>
+
+            <label>E-mail
+              <input class="input" type="email" name="email" required>
+            </label>
+
+            <label>Poziom
+              <select class="select" name="level" required>
+                <option value="junior">Junior / Student</option>
+                <option value="mid">Mid</option>
+                <option value="senior">Senior</option>
+              </select>
+            </label>
+
+            <label>Technologia
+              <select class="select" name="track" required>
+                <option value="java">Java</option>
+                <option value="web">Web</option>
+                <option value="devops">DevOps</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="check">
+            <input type="checkbox" name="consent" required>
+            Zgadzam się na przetwarzanie danych.
+          </label>
+
+          <button class="btn btn-wide" type="submit">Zarejestruj mnie</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="location" class="section">
+      <h2>Miejsce</h2>
+      <p>
+        <strong>Sandomierska 6, 02-567 Warszawa, Polska</strong>.<br>
+        Dojazd: najbliższa stacja metra — <em>Pole Mokotowskie</em> (linia M1).
+      </p>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps?q=Sandomierska%206%2C%2002-567%20Warszawa&output=embed"
+          loading="lazy"
+          title="Mapa — Sandomierska 6, Warszawa"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <a class="go-top" aria-label="Do góry">↑</a>
+
+  <footer id="contact">
+    <section aria-labelledby="contact-title">
+      <h2 id="contact-title">Kontakt</h2>
+      <address>
+        <p>E-mail: <a href="mailto:mail@email.com">mail@email.com</a></p>
+        <p>Telefon: <a href="tel:+48123456789">+48 123 456 789</a></p>
+        <p>Instagram: <a href="#" rel="noopener">instagram.com/techmeetup</a></p>
+      </address>
+    </section>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="stylesheet/style.css"/>
+  <script src="JS/script.js" defer></script>
+</head>
+<body>
+  <header id="home" aria-label="Zdjęcie fotografa">
+    <h1>Fotograf</h1>
+
+    <nav aria-label="Menu">
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+
+    <p class="intro">
+      Doświadczony fotograf z ponad dziesięcioletnią praktyką w fotografii krajobrazowej. Tworzy obrazy, które przenoszą widza w samo serce natury.
+    </p>
+  </header>
+
+  <main>
+    <section id="portfolio" aria-labelledby="portfolio-title">
+      <h2 id="portfolio-title">Portfolio</h2>
+
+      <ul class="grid">
+        <li>
+          <figure>
+            <img src="Image/photo1.jpg" alt="Zdjęcie lasu w Kazachstanie" loading="lazy" />
+            <figcaption>Las, Kazachstan</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="Image/photo2.jpg" alt="Zdjęcie chaty nad jeziorem w Norwegii" loading="lazy" />
+            <figcaption>Chata nad jeziorem, Norwegia</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="Image/photo3.jpg" alt="Zdjęcia Dolomitów we Włoszech" loading="lazy" />
+            <figcaption>Dolomity, Włochy</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="Image/photo4.jpg" alt="Zdjęcie wieży elfów we Francji" loading="lazy" />
+            <figcaption>Wieża elfów, Francja</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="Image/photo5.jpg" alt="Zdjęcie ulicy w Nowym Jorku" loading="lazy" />
+            <figcaption>Street, USA</figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="Image/photo6.jpg" alt="Zdjęcie alei we Włoszech" loading="lazy" />
+            <figcaption>Aleja, Włochy</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+  </main>
+  
+  <a class="go-top" aria-label="Do góry">↑</a>
+
+  <footer id="contact">
+    <section aria-labelledby="contact-title">
+      <h2 id="contact-title">Kontakt</h2>
+      <address>
+        <p>E-mail: <a href="mailto:mail@email.com">mail@email.com</a></p>
+        <p>Telefon: <a href="tel:+48123456789">+48 123 456 789</a></p>
+        <p>Instagram: <a href="#" rel="noopener">instagram.com/photograph</a></p>
+      </address>
+    </section>
+  </footer>
+</body>
+</html>

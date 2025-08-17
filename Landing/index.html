@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing</title>
+  <link rel="stylesheet" href="stylesheet/style.css"/>
+  <script src="JS/script.js" defer></script>
+</head>
+<body>
+
+  <div class="page">
+    <aside class="left">
+      <div class="left-inner">
+        <h1>Kurs Java</h1>
+        <p>Nauka krok po kroku: podstawy języka, OOP, baza danych i prosty backend.</p>
+
+        <a class="btn" href="#price">Zapisz się</a>
+
+        <nav class="small-nav" aria-label="Nawigacja sekcji">
+          <a href="#about">O kursie</a>
+          <a href="#program">Program</a>
+          <a href="#video">Wideo</a>
+        </nav>
+      </div>
+    </aside>
+
+    <main class="right">
+      <section id="about">
+        <h2>O kursie</h2>
+        <p>Ten kurs jest kompleksowym wprowadzeniem do języka programowania Java – jednego z najpopularniejszych i najbardziej uniwersalnych języków na świecie. 
+          Program szkolenia obejmuje zarówno solidne fundamenty (składnia, typy danych, struktury kontrolne), jak i zaawansowane zagadnienia, takie jak programowanie 
+          obiektowe, obsługa wyjątków, kolekcje, programowanie wielowątkowe oraz podstawy Spring Framework. Zajęcia prowadzone są w formie interaktywnych wykładów 
+          i ćwiczeń praktycznych, co pozwala uczestnikom natychmiast zastosować zdobytą wiedzę. Po ukończeniu kursu każdy uczestnik będzie w stanie tworzyć własne 
+          aplikacje w Javie oraz zrozumie architekturę projektów komercyjnych.</p>
+      </section>
+
+      <section id="program">
+        <h2>Program</h2>
+        <ul class="list">
+          <li>Podstawy Javy i środowiska (IntelliJ IDEA)</li>
+          <li>Programowanie obiektowe: klasy, dziedziczenie, interfejsy</li>
+          <li>Baza danych: JDBC, podstawy SQL</li>
+          <li>Wprowadzenie do Spring Boot i REST</li>
+        </ul>
+      </section>
+
+      <section id="video">
+        <h2>Wideo</h2>
+        <div class="video">
+          <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            title="Kurs Java"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"></iframe>
+        </div>
+      </section>
+
+      <section id="price">
+        <h2>Cena i zapisy</h2>
+        <div class="card">
+          <p class="price">999 zł</p>
+          <ul class="list">
+            <li>Start: 12 października 2025</li>
+            <li>Czas trwania: 8 tygodni</li>
+            <li>Tryb online</li>
+          </ul>
+          <a class="btn" href="#!">Zapisz się</a>
+        </div>
+      </section>
+
+      <div class="spacer"></div>
+    </main>
+
+  </div>
+
+  <a class="go-top" aria-label="Do góry">↑</a>
+  
+  <footer id="contact">
+      <section aria-labelledby="contact-title">
+        <h2 id="contact-title">Kontakt</h2>
+        <address>
+          <p>E-mail: <a href="mailto:mail@email.com">mail@email.com</a></p>
+          <p>Telefon: <a href="tel:+48123456789">+48 123 456 789</a></p>
+          <p>Instagram: <a href="#" rel="noopener">instagram.com/javakurs</a></p>
+        </address>
+      </section>
+    </footer>
+</body>
+</html>
