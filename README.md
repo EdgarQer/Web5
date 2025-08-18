@@ -10,4 +10,4 @@
 - **Iframe**: działa poprawnie, strona ładuje się bez błędów.  
 - **Zewnętrzny link**: strona otwiera się na komputerze i telefonie.  
 - **HTML Button**: przekierowanie działa prawidłowo.
-Interakcje (przyciski, formularze, mapa Google) funkcjonują bez problemów.
+- Interakcje (przyciski, formularze, mapa Google) funkcjonują bez problemów.
