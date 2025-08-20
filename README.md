@@ -1,9 +1,9 @@
 ## Projekty
-- [Portfolio](https://twoja_nazwa.github.io/projekty/portfolio/)
-- [Blog](https://twoja_nazwa.github.io/projekty/blog/)
-- [Landing](https://twoja_nazwa.github.io/projekty/landing/)
-- [Event](https://twoja_nazwa.github.io/projekty/event/)
-- [Product](https://twoja_nazwa.github.io/projekty/product/)
+- [Portfolio](https://edgarqer.github.io/Web5/Portfolio/)
+- [Blog](https://edgarqer.github.io/Web5/Blog/)
+- [Landing](https://edgarqer.github.io/Web5/Landing/)
+- [Event](https://edgarqer.github.io/Web5/Event/)
+- [Product](https://edgarqer.github.io/Web5/Product/)
 
 
 ## Test integracji
